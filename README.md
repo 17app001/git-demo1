@@ -2,7 +2,7 @@
 
 - Markdown 語法
      - https://hackmd.io/@eMP9zQQ0Qt6I8Uqp2Vqy6w/SyiOheL5N/%2FBVqowKshRH246Q7UDyodFA?type=book
-###  練習GIT相關指令
+###  演練GIT相關指令
 ---
 
 重點指令
@@ -18,11 +18,15 @@
      - 任一個commit-object/branch
 - git commit -m "xxxxxx"
      - 暫存區=>倉庫區 
+- git commit --amend
+     - 合併上一次的commit
 - git log / git status
 - git checkout -b <新增分支跟切換>
 - git merge <分支合併>
 - git reset --hard HEAD (commit-object)
 - git reflog
+- git push 
+- git push -f
 
 ### 雲端相關
 - github 申請新的專案倉庫網址
