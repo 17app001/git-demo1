@@ -5,6 +5,46 @@
 ###  演練GIT相關指令
 ---
 
-
-標題測試
+重點指令
 =
+
+### 本地相關
+- git init
+     - 初始專案
+- git add .  
+     - U/A/M/D (控管模式)
+- git checkout .
+     - 恢復修改 (反悔簡易恢復)
+     - 任一個commit-object/branch
+- git commit -m "xxxxxx"
+     - 暫存區=>倉庫區 
+- git log / git status
+- git checkout -b <新增分支跟切換>
+- git merge <分支合併>
+- git reset --hard HEAD (commit-object)
+- git reflog
+
+### 雲端相關
+- github 申請新的專案倉庫網址
+- git add remote origin https:/xxxx/xxxxx.git
+- git remote -v
+- git push -u origin master 
+     - git push
+
+- 複製專案
+     - git clone https:/xxxx/xxxxx.git
+
+- 雲端同步專案到本地端
+     - git pull
+
+
+
+
+
+
+
+
+
+
+
+     
