@@ -13,3 +13,6 @@ for i in range(5):
             print("猜高一點!")
         else:
             print("猜低一點~~")
+
+
+print("遊戲結束")
